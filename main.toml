@@ -1,80 +1,109 @@
 [cv]
-name = "胡图图"
-email = "tutuhu@gmail.com"
-phone = "(+86) 820-820-8820"
-website = "https://www.wikiwand.com/zh/大耳朵图图"
-birthday = "2000.06.21"
-# 路径
-avatar = ""
+name = "孙传文 (Sun Chuanwen)"
+email = "scw020115@163.com"
+phone = "(+86) 166-5361-0096"
+website = "" # 如果有ResearchGate或LinkedIn链接可以填在这里
+birthday = "2002.01" 
+avatar = "path/to/your/photo.jpg" # 请替换为您的照片路径
+
+# --- 教育背景 ---
 
 [[educations]]
-school = "翻斗幼儿园"
-major = "软件工程"
-degree = "幼儿园"
-date = "2006.9 - now"
+school = "韩国延世大学 (Yonsei University)"
+major = "公共卫生学 (卫生行政方向)"
+degree = "博士研究生 (Ph.D. Student)"
+date = "2025.9 - now"
 
 [[educations]]
-school = "翻斗学前班"
-major = "计算机科学与技术"
-degree = "学前班"
-date = "2003.9 - 2006.6"
+school = "韩国大邱加图立大学 (Daegu Catholic University)"
+major = "物理治疗学"
+degree = "硕士 (Master's Degree)"
+date = "2024.9 - 2025.6"
+
+[[educations]]
+school = "山西中医药大学"
+major = "康复治疗学"
+degree = "理学学士 (Bachelor's Degree)"
+date = "2020.9 - 2024.6"
+
+# --- 科研项目 (包含在研项目与学术会议) ---
 
 [[projects]]
-name = "Kubernetes"
-url = "https://github.com/kubernetes/kubernetes"
-date = "2014.6 - now"
-desc = "Kubernetes是一个开源的，用于管理云平台中多个主机上的容器化的应用"
-points = ["负责Kubernetes的网络部分", "负责Kubernetes的不知道什么部分"]
-
-[[projects]]
-name = "Linux"
-url = "https://github.com/torvalds/linux"
-date = "2006.6 - 2022.6"
-desc = "Linux是一个开源的操作系统内核"
+name = "中韩老年健康指标对比研究 (CHARLS & KLoSA)"
+url = "" 
+date = "2025.9 - now"
+desc = "博士期间核心研究课题，基于大型面板数据进行跨国健康差异分析"
 points = [
-    "负责Linux的文件系统部分，包括ext4, btrfs, xfs, f2fs",
-    "负责Linux的网络部分，包括TCP/IP, UDP, SCTP, DCCP, IPv4, IPv6",
+    "利用CHARLS (中国) 和 KLoSA (韩国) 数据库，进行数据清洗与纵向追踪分析",
+    "重点研究：昼夜节律综合征(CircS)对慢性病共病的影响机制",
+    "分析代际照护支持（Intergenerational Support）与老年人ADL/IADL及抑郁水平的关联"
 ]
 
 [[projects]]
-name = "翻斗幼儿园每日打卡"
+name = "慢性病药物无人机配送服务模式研究"
 url = ""
-date = "2019.12 - 2023.1"
-desc = ""
-points = ["可以进行翻斗幼儿园每日打卡", "在线用户超过20"]
+date = "2025.10 - now"
+desc = "与徐州医科大学访问学者的合作项目"
+points = [
+    "探索无人机技术在解决偏远地区药物配送“最后一公里”问题的应用",
+    "构建成本效益分析框架，评估该模式在慢性病管理中的政策可行性"
+]
+
+[[projects]]
+name = "AI辅助机器人半月板损伤康复系统"
+url = ""
+date = "2026.1 - now"
+desc = "医工结合项目，开发智能化康复评估与训练设备"
+points = [
+    "负责设计针对半月板损伤术后的康复动作库与临床路径",
+    "协助验证机器人辅助治疗在临床康复中的有效性与安全性"
+]
+
+[[projects]]
+name = "2026 亚洲公共卫生学会 (Asian Conference on Public Health)"
+url = ""
+date = "2026 (Chiang Rai, Thailand)"
+desc = "国际学术会议参会经历"
+points = [
+    "参与关于亚洲地区慢性病管理与公共卫生政策挑战的研讨",
+    "与国际学者交流中韩老龄化社会的卫生资源配置问题"
+]
+
+# --- 学术发表 (作为单独项目列出以强调成果) ---
+
+[[projects]]
+name = "学术发表：《面瘫康复操辅助治疗周围面神经炎的效果观察》"
+url = "" 
+date = "2024 Published"
+desc = "发表于《医药卫生》期刊 (ISSN 1671-5535)"
+points = [
+    "第一作者 [cite: 6]",
+    "基于临床对照实验，证实了传统物理治疗结合康复操训练的显著疗效 [cite: 6]",
+    "数据来源于晋城大医院为期一年的临床干预观察 [cite: 6]"
+]
+
+# --- 实习/临床经历 ---
 
 [[internships]]
-company = "翻斗大街翻斗花园2号楼"
-jobtitle = "端茶倒水"
-date = "2022.4 - 2022.6"
-points = ["负责端茶倒水", "负责浇花"]
+company = "晋城大医院 (Jincheng General Hospital)"
+jobtitle = "康复医学科实习生"
+date = "2023.6 - 2024.6"
+points = [
+    "深入参与神经系统（脑卒中、脊髓损伤）与骨科疾病的康复评估与治疗 [cite: 6]",
+    "熟练掌握物理因子治疗、运动疗法(PT)及作业治疗(OT)操作流程 [cite: 6]",
+    "协助医师制定全周期的患者康复管理方案"
+]
 
-[[internships]]
-company = "翻斗幼儿园"
-jobtitle = "扮演小学生"
-date = "2022.4 - 2022.6"
-points = ["和张小帅一起玩", "和张小帅一起吃饭", "和张小帅一起睡觉(误)"]
-
-[[awards]]
-name = "最佳编导奖（获奖）"
-date = "2006.11.8"
-
-[[awards]]
-name = "优秀长篇美术片奖（获奖）"
-date = "2006.11.8"
-
-[[awards]]
-name = "中国电视艺术最高政府奖 - 星光奖"
-date = "2010.1.24"
+# --- 技能 ---
 
 [[skills]]
-name = "编程语言"
-desc = "C/C++, Python, Java, JavaScript, HTML/CSS, PHP, SQL"
+name = "科研与数据分析"
+desc = "Stata, SPSS, CHARLS/KLoSA数据处理, 文献检索与综述撰写"
 
 [[skills]]
-name = "工具"
-desc = "Git, Vim, VS Code, Linux, Docker, MySQL, MongoDB, Redis"
+name = "语言能力"
+desc = "中文 (母语), 韩语 (TOPIK 5级 - 优秀的学术读写能力)[cite: 6], 英语 (学术文献阅读)"
 
 [[skills]]
-name = "语言"
-desc = "中文, 英语, 日语, 俄语, 法语, 德语, 西班牙语, 阿拉伯语, 葡萄牙语, 意大利语, 希腊语, 土耳其语"
+name = "临床技能"
+desc = "康复评定, 物理治疗(PT), 运动处方制定, 神经康复技术"
